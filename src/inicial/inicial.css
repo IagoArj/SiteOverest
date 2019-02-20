@@ -1,0 +1,53 @@
+.inicial{
+    display: flex;
+    height: 100vh;
+    background-color: #262626;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mid-text{
+    align-self: center;
+    font-size: 2em;
+}
+.mid-text h1{
+    
+    color: white;
+}
+
+.orcamento{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border:none;
+    background-color: #6E139B;
+    color: white;
+}
+.circle-one{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background-color:transparent; 
+    border-style: solid;
+    border-width: 20px;
+    border-color:#C20000;
+    border-radius: 500px;
+    top:-120px;
+    right:-100px;
+}
+.circle-two{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background-color:transparent; 
+    border-style: solid;
+    border-width: 25px;
+    border-color:#6E139B ;
+    border-radius: 500px;
+    bottom: -100px;
+    left: -100px;
+    z-index: 0;
+}

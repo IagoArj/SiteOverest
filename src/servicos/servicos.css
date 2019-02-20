@@ -1,0 +1,48 @@
+.service-text{
+    margin:0%;
+    padding-top: 40px;
+    padding-left:60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color:#0F0F0F;
+    color:white;
+    font-size: 30px;
+    
+    
+}
+.servico{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    background-color: #0F0F0F;
+}
+.servico h3{
+    margin: 0%;
+    color:white;
+}
+
+.servicos{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    width: 17%;
+}
+.servicos h3{
+    color:white;
+}
+
+.servicos h4{
+    color: #B2B2B2;
+}
+.icone-servico{
+    
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px;
+}
