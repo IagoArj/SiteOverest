@@ -4,6 +4,23 @@
 
 body{
   overflow-x: hidden;
+  background-color: #262626
+}
+
+.horizontal-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+}
+.flex{
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
 }
 
 .App-logo {

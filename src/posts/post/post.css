@@ -1,0 +1,14 @@
+.post-image{
+    height: 120px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+}
+.post-title{
+    color: white;
+}
+.post{
+    margin-left: 50px;
+    width: 220px;
+    color: #B2B2B2
+}

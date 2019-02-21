@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
-import './servicos.css';
+import './services.css';
 import ServiceOne from './ServiceOne.js';
 
 
-export default class Servicos extends Component {
+export default class Services extends Component {
     render() {
         return (
             <div>
                 <h3 className='service-text'>Serviços</h3>
-                <div className='servico'>
+                <div className='service'>
 
                     <ServiceOne></ServiceOne>
                     <ServiceOne></ServiceOne>

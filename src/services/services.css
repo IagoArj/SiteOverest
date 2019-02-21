@@ -1,45 +1,45 @@
 .service-text{
+    text-align: center;
     margin:0%;
     padding-top: 40px;
-    padding-left:60px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
-    background-color:#0F0F0F;
+    background-color:#141414;
     color:white;
-    font-size: 30px;
+    font-size: 40px;
     
     
 }
-.servico{
+.service{
     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
     align-items: center;
-    background-color: #0F0F0F;
+    background-color: #141414;
 }
-.servico h3{
+.service h3{
     margin: 0%;
     color:white;
 }
 
-.servicos{
+.services{
     padding-left: 60px;
     display: flex;
     flex-direction: column;
     padding-bottom: 60px;
     width: 17%;
 }
-.servicos h3{
+.services h3{
     color:white;
 }
 
-.servicos h4{
+.services h4{
     color: #B2B2B2;
 }
-.icone-servico{
+.icone-service{
     
     width: 70px;
     height: 70px;
