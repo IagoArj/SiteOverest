@@ -7,14 +7,14 @@ export default class Header extends Component {
             <div>
                 <div className="header">
                     <div className='over-logo'>
-                        <img src={require('../assets/overLogo.jpeg')} className="logo" ></img>
+                        <img src={require('../assets/overLogo.png')} className="logo" ></img>
                         <h2>Overest</h2>
                     </div>
                     <div className="header-right">
-                        <a className="active" href="#home">Home</a>
-                        <a href="#contact">Home</a>
-                        <a href="#about">Home</a>
-                        <a href="#about">Home</a>
+                        <a className="active links" href="#home">Serviços</a>
+                        <a className='links' href="#contact">Projetos</a>
+                        <a className='links' href="#about">Posts</a>
+                        <a className='links' href="#about">Contato </a>
                     </div>
                 </div>
             </div>

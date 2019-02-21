@@ -1,4 +1,14 @@
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 75px;
     background-color: #141414; 
+
+}
+
+.logoFooter{
+    
+    width: 40px;
+    height: 40px;
 }

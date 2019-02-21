@@ -1,3 +1,6 @@
+.links{
+  font-family: 'Roboto', sans-serif;
+}
 
 .header {
   position: fixed;
@@ -14,7 +17,7 @@
 .header a {
   margin-left: 100px;
   float: left;
-  color:#707070;
+  color:white;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -30,7 +33,7 @@
 
 .over-logo h2{
     margin-left: 20px;
-    color:#707070;
+    color:white;
 
 }
 .header img.logo{

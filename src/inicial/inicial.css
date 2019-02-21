@@ -1,9 +1,10 @@
 .inicial{
     display: flex;
     height: 100vh;
-    background-color: #262626;
+    background: linear-gradient(to bottom, #000, rgba(0,0,0,0.0)), url("../assets/inicialPhoto.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     justify-content: center;
-    width: 100%;
     overflow: hidden;
 }
 
@@ -32,7 +33,7 @@
     height: 200px;
     background-color:transparent; 
     border-style: solid;
-    border-width: 20px;
+    border-width: 20px;     
     border-color:#C20000;
     border-radius: 500px;
     top:-120px;
