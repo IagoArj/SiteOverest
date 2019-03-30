@@ -11,13 +11,11 @@ export default class Inicial extends Component {
           <div className='light l-1'></div>
           <div className='light l-2'></div>
           <div className='light l-3'></div>
-          <div className='star s1'></div>
-          <div className='star s2'></div>
-          <div className='star s3'></div>
         </div>
         <div className='orcamento-box'>
-          <h2>Uma Agência digital focada em você </h2>
-          <button className='button-over-white'>Faça um orçamento!</button>
+          <h1>Aplicativos, Sistemas e Soluções Digitais</h1>
+          <h2>Para fazer você alcançar <br /> novas possibilidades</h2>
+          <button className='btn-primary'>Faça um orçamento!</button>
         </div>
       </div>
     )

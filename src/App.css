@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -29,21 +34,21 @@
 .App-link {
   color: #61dafb;
 }
-.button-over-white{
+
+.btn-primary{
   padding: 15px 60px;
-  background-color: white;
+  font-family: 'Exo', sans-serif;
+  font-weight: 800;
+  font-size: 1em;
+  background-color: #D32F2F;
   border: none;
   width: 300px;
-  border-radius: 300px;
-  color: blue;
-  cursor: pointer;
-  
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;  
 }
 
-.button-over-white:hover{
-  background-color: #282c34;
-  color: white;
-  font-size: 15px;
+.btn-primary:hover{
   
 }
 

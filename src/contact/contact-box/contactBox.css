@@ -1,79 +1,74 @@
 .contact-box{
     margin: 75px 0px;
-    align-items: flex-start;
-    background-color: #2d2d2d;  
+    background-color: #2d2d2d;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
 }
-.e-box strong{
-    margin-left: 15px;
-    color: #a4a4a4;
-}
-.c-box strong{
-    margin-left: 15px;
-    color: #a4a4a4;
-}
-.contact-box p{
-    color: #a4a4a4;
-}
-.contact{
-    margin-top: 40px;
+
+/* ----------- CONTACT-INFO -------- */
+
+.contact-info{
     margin-left: 30px;
     margin-right: 100px;
+    color: #A4A4A4;
     background-color: #2d2d2d;
-
+    justify-content: space-around;
 }
-.contact-input h3{
-    font-size: 1.7em;
-    color: #545454;
-    padding-left: 30px;
-    
 
+.contact-info .title{
+    font-weight: 700;    
 }
-.e-box{
+
+.contact-info .title.with-icon{
+    margin-left: 10px;
+}
+
+.contact-info .flex-horizontal {
     align-items: center;
 }
-.c-box{
-    margin-top: 70px;
-}
-.contact-input{
-    
+
+/* ----------- CONTACT-FORM -------- */
+
+.contact-form{    
     background-color: #ffffff;
-    width: 400px;
+    width: 450px;
 }
-.contact-input strong{
-    margin-left: 30px;
-    color: #545454;
+
+.contact-form h3{
+    font-size: 1.7em;
+    color: #5A5A5A;
+    padding: 20px 0 40px 30px;
 }
-.input-over{
+
+.contact-input{
     border:none;
-    background-color: #cac7c7;
+    background-color: #DFDFDF;
     margin: 10px 30px;
-    padding: 10px 0px;
-    
+    padding: 10px;
+    border-radius: 5px;
 }
-.fa-envelope{
-    color: #a4a4a4;
+
+.contact-input::placeholder{
+    font-family: 'Raleway', sans-serif;
 }
-.fa-whatsapp{
-    color: #a4a4a4;
-}
-.mesage{
-    height:75px;
-}
-.button-over{
+
+.button-contact {
     margin-top: 15px;
-    width: 100%;
-    background-color: #573dd3;
     border: none;
-    padding: 10px 0px;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #573dd3;
+    cursor: pointer;
     color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Exo', sans-serif;
     font-weight: 700;
-  }
-  .button-over:hover{
-      background-color: #422da7;
-      color: white;
-  }
-  .button-contact{
-      justify-content: center;
-      width: 100%;
-  }
+    text-transform: uppercase;
+}
+
+.button-contact:hover {
+    background-color: #422da7;
+}
+
+
+
+

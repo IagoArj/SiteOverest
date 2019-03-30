@@ -1,161 +1,166 @@
 .inicial{
     height: 100vh;
-    overflow:hidden;
-    background-image:url("../assets/Back.png"); 
+    overflow: hidden;
+    background-image: url("../assets/Back.png");
 }
-.orcamento-box{
+
+.orcamento-box {
     display: flex;
     flex-direction: column;
     width: 500px;
-    margin-top: 175px; 
+    margin-top: 175px;
     margin-left: 120px;
 }
-.orcamento-box h2{
+
+.orcamento-box h1 {
     font-size: 2.5em;
+    font-family: 'Exo', sans-serif;
     color: white;
 }
-.moon{
+
+.orcamento-box h2 {
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    color: #616161;
+    padding: 20px 0;
+}
+
+.moon {
     width: 200px;
     height: 200px;
-    position:absolute;
+    position: absolute;
     left: 800px;
     bottom: 250px;
     animation-name: lua;
-    
+
     animation-duration: 5s;
     z-index: 1;
 }
 
-.light{
+.light {
     background-color: white;
     border-radius: 100%;
-    position:absolute;
+    position: absolute;
     left: 800px;
     bottom: 250px;
     opacity: 0.15;
     width: 200px;
     height: 200px;
-    
+
 }
 
-.l-1{   
+.l-1 {
     animation: lights1 3s infinite, lua 5s;
     transform: scale(1.25)
 }
-.l-2{   
+
+.l-2 {
     animation: lights2 3s infinite, lua 5s;
     transform: scale(1.5)
 }
-.l-3{   
+
+.l-3 {
     animation: lights3 3s infinite, lua 5s;
     transform: scale(1.75)
 }
-.cloud{
+
+.cloud {
     width: 100px;
     height: 100px;
     position: absolute;
     animation: cloud 30s infinite;
 }
-.c1{
+
+.c1 {
     animation: cloud1 20s infinite;
     top: 100px;
     right: 150px;
     z-index: 2;
 }
-.c2{
+
+.c2 {
     animation: cloud2 45s infinite;
     top: 250px;
     right: 500px;
     z-index: 2;
 }
-.star{
-    width: 4px;
-    height: 4px;
-    position: absolute;
-    background-color: white;
-    border-radius: 100%;
-    animation: pisca 0.5s infinite ;
-}
-.s1{
-    top: 70px;
-    right: 60px;
-}
-.s2{
-    top: 96px;
-    right: 120px;
-}
-.s3{
-    top: 135px;
-    right: 143px;
-}
-@-webkit-keyframes pisca {
-    0%{
-        opacity: 1;
+
+@-webkit-keyframes lua {
+    from {
+        bottom: 10px
     }
-    50%{
-        opacity: 0.2;
-    }
-    100%{
-        opacity: 1;
+
+    to {
+        bottom: 250px
     }
 }
 
-@-webkit-keyframes lua {
-    from {bottom:10px }
-    to {bottom:250px }
-  }
-  @-webkit-keyframes cloud1 {
-   0%{
-       right: 150px;
-   }
-   50%{
-       right: 400px;
-   }
-   100%{
-       right: 150px;
-   }
-  }
-  @-webkit-keyframes cloud2 {
-    0%{
+@-webkit-keyframes cloud1 {
+    0% {
+        right: 150px;
+    }
+
+    50% {
+        right: 400px;
+    }
+
+    100% {
+        right: 150px;
+    }
+}
+
+@-webkit-keyframes cloud2 {
+    0% {
         right: 800px;
     }
-    50%{
+
+    50% {
         right: 500px;
     }
-    100%{
+
+    100% {
         right: 800px;
     }
-   }
-  @-webkit-keyframes lights1 {
-    0%{
+}
+
+@-webkit-keyframes lights1 {
+    0% {
         transform: scale(1.25)
     }
-    50%{
+
+    50% {
         transform: scale(1.5)
     }
-    100%{
+
+    100% {
         transform: scale(1.25)
     }
-  }
-  @-webkit-keyframes lights2 {
-    0%{
+}
+
+@-webkit-keyframes lights2 {
+    0% {
         transform: scale(1.5)
     }
-    50%{
+
+    50% {
         transform: scale(1.75)
     }
-    100%{
+
+    100% {
         transform: scale(1.5)
     }
-  }
-  @-webkit-keyframes lights3 {
-    0%{
+}
+
+@-webkit-keyframes lights3 {
+    0% {
         transform: scale(1.75)
     }
-    50%{
+
+    50% {
         transform: scale(2)
     }
-    100%{
+
+    100% {
         transform: scale(1.75)
     }
-  }
+}
