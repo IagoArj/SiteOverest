@@ -1,7 +1,20 @@
 .show-box{
-    width: 25vw;
-    height: 200px;
-    background: url('../../assets/dead.jpg');
-    background-position: center;
-    background-size: cover;
+    align-items: center;
+}
+.img-box{
+    width: 250px !important;
+    height: 150px;
+    border-radius: 12px;
+}
+.h3-box{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.p-box{
+    margin-top: 10px !important; 
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 22px;
 }
