@@ -8,6 +8,7 @@ import Post from './post/Post';
 import Footer from './footer/Footer';
 import Contact from './contact/Contact';
 import Team from './team/Team';
+import Newsletter from './newsletter/Newsletter';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Service></Service>
         <ShowCase></ShowCase>
         <Team></Team>
+        <Newsletter></Newsletter>
         <Post></Post>
         <Contact></Contact>
         <Footer></Footer>

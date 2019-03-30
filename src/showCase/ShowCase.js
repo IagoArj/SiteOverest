@@ -55,6 +55,7 @@ export default class ShowCase extends Component {
         return (
             <div>
                 <h2 className='last-works'>Últimos Trabalhos</h2>
+
                 <OwlCarousel options={options} events={events} >
                     {boxes.map((box) => {
                         return <ShowBox url_img={box.url_img} title={box.title} subtitle={box.subtitle} ></ShowBox>

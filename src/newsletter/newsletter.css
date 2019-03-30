@@ -1,0 +1,40 @@
+.newsletter-box{
+    margin-top: 60px;
+    justify-content: center;
+}
+.h3-news{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Exo", sans-serif;
+    margin-bottom: 0px;
+}
+.p-news{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
+.input-box{
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.input-news{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.input-news::placeholder{
+    color: #474AB5;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+.btn-news{
+    margin-left:10px; 
+    border: none;
+    padding: 0px 75px;
+    background-color: #CE3B3B ;
+    color: #fff;
+    font-family: "Exo", sans-serif;
+    font-weight: 900;
+    border-radius: 5px;
+}
