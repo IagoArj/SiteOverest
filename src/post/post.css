@@ -1,0 +1,13 @@
+.post{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-color: #353535;
+    
+}
+.posts{
+    justify-content: center;
+}
+.post h2{
+   text-align: center;
+   color: white;
+}

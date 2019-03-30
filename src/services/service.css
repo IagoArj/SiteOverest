@@ -1,0 +1,17 @@
+.service {
+    background-color:#02000C;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.service h2 {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    
+}

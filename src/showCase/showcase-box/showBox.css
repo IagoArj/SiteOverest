@@ -1,0 +1,7 @@
+.show-box{
+    width: 25vw;
+    height: 200px;
+    background: url('../../assets/dead.jpg');
+    background-position: center;
+    background-size: cover;
+}

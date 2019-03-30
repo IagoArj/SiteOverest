@@ -1,14 +1,28 @@
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75px;
-    background-color: #141414; 
-
+    background-color: #161616;
+    justify-content: space-between;
 }
-
-.logoFooter{
-    
-    width: 40px;
-    height: 40px;
+.logo-footer{
+    padding: 20px 0px;
+    width: 50px;
+    height: 50px;
+}
+.diretos-reservados{
+    align-items: center;
+}
+.direitoP{
+    padding: 18px 0px 0px 15px;;
+    color:#707070; 
+}
+.links-f{
+    color: #707070;
+    padding-left: 15px;
+    margin-right:15px;
+    text-decoration: none; 
+}
+.links-f:hover{
+    color:white;
+}
+.all-links{
+    align-items: center;
 }

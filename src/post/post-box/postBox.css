@@ -1,0 +1,22 @@
+.post-box{
+    width: 250px; 
+    padding: 0px 30px;
+    
+}
+.post-img{
+    width: 100%s;
+    height: 120px;
+    background-color:#707070; 
+    border-radius: 15px;
+    
+}
+.post-box-h3{
+    color: white;
+    margin-top:10px; 
+    margin-bottom: 10px;
+}
+.post-box-h4{
+    color: #999999;
+    margin-top:0; 
+    margin-bottom: 10px;
+}
