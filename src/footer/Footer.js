@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div className='footer flex-horizontal'>
-                <div className='flex-horizontal direitos-reservados'>
+                <div className='flex-horizontal copy-right'>
                     <img src={require('../assets/overLogo.png')} className="logo-footer" ></img>
                     <p className='direitoP'> &copy; 2019. Overest Ltda - Direitos Reservados</p>
                 </div>

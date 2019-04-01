@@ -27,6 +27,8 @@ export default class Service extends Component {
                     }
                     )}
                 </div>
+                <img className="mapX mapX-left" src={require('../assets/MapX.png')} />
+                <img className="mapX mapX-right" src={require('../assets/MapX.png')} />
             </div>
         )
     }

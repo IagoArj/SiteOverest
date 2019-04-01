@@ -1,17 +1,19 @@
 .newsletter-box{
-    margin-top: 60px;
     justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 .h3-news{
     color: #ffffff;
     font-size: 28px;
     font-family: "Exo", sans-serif;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 .p-news{
     color: #ffffff;
     font-size: 16px;
     font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
 }
 .input-box{
     justify-content: center;

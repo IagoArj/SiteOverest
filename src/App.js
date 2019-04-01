@@ -20,7 +20,6 @@ class App extends Component {
         <ShowCase></ShowCase>
         <Team></Team>
         <Newsletter></Newsletter>
-        <Post></Post>
         <Contact></Contact>
         <Footer></Footer>
       </div>

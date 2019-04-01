@@ -1,5 +1,42 @@
 .last-works{
     font-family: 'Exo', sans-serif;
     color: #ffffff;
+    margin-top: 30px;
     margin-left: 25px;
+}
+/* ----------------- OWL-NAV -------- */
+
+.owl-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.owl-prev{
+    color: #ffffff;
+}
+.owl-next{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+/*----------------- RED-STICK --------------- */
+.red-stick{
+    margin:5px 0px 20px 30px; 
+}
+.stick{
+    height: 3px;
+    background-color:#DD0202;
+    border-radius: 3px;
+    border: none; 
+}
+.s-one{
+    width: 80px;
+}
+.s-two{
+    margin-left: 15px;
+    width: 30px;
+}
+.s-three{
+    margin-left: 15px;
+    width: 60px;
 }

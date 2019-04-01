@@ -10,6 +10,7 @@ export default class ShowCase extends Component {
         const options = {
             items: 4,
             nav: true,
+            dots: false,
             rewind: false,
             autoplay: false
         };
@@ -19,7 +20,6 @@ export default class ShowCase extends Component {
             onChanged: function (event) { }
         };
         const boxes = [
-
             {
                 url_img: "../../assets/dead.jpg",
                 title: "Site",
@@ -55,7 +55,11 @@ export default class ShowCase extends Component {
         return (
             <div>
                 <h2 className='last-works'>Últimos Trabalhos</h2>
-
+                <div className='flex-horizontal red-stick'>
+                    <div className='stick s-one'></div>
+                    <div className='stick s-two'></div>
+                    <div className='stick s-three'></div>
+                </div>
                 <OwlCarousel options={options} events={events} >
                     {boxes.map((box) => {
                         return <ShowBox url_img={box.url_img} title={box.title} subtitle={box.subtitle} ></ShowBox>

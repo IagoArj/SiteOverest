@@ -47,6 +47,10 @@
     border-radius: 5px;
 }
 
+.message{
+    height: 100px;
+}
+
 .contact-input::placeholder{
     font-family: 'Raleway', sans-serif;
 }
